@@ -1,0 +1,39 @@
+<%- include("partials/header") -%>
+
+    <div class="col-lg-4">
+      <div class="form-section">
+        <a class="tab" href=""
+          >Log In
+          <hr
+        /></a>
+        <a class="tab tab-muted" href=""
+          >Register
+          <hr
+        /></a>
+        <form action="/" method="POST">
+          <div class="form-group">
+            <label for="email">Email/Mobile Number</label>
+            <input
+            name="email"
+              class="form-control"
+              type="email"
+              placeholder="dummy@email.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input name="password" class="form-control" type="password" required />
+          </div>
+          <a class="forgot-password-link" href="">Forgot Password</a>
+          <button type="submit">Login</button>
+          <p class="register-login-toggle">
+            Not a member yet? <a href="/register">Register</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include("partials/footer") -%>

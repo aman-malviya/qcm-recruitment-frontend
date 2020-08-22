@@ -1,0 +1,99 @@
+.main-section {
+  padding: 2% 4%;
+  background-color: #192b3f;
+  font-family: "Comfortaa", cursive;
+}
+.main-section img {
+  height: 250px;
+}
+.main-content {
+  padding: 5%;
+  color: #fff;
+}
+.main-content h2 {
+  padding: 5% 5% 0;
+}
+.main-content p {
+  font-size: 0.8rem;
+  padding: 1% 5% 5%;
+}
+/* Form Section */
+.form-section {
+  padding: 10% 10% 3%;
+  background-color: #fff;
+  color: #888c8e;
+  border-radius: 10px;
+}
+.tab {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #888c8e;
+  cursor: text;
+}
+.tab:hover {
+  text-decoration: none;
+  color: #888c8e;
+}
+.tab-muted {
+  color: #e5e5e5;
+}
+.tab-muted:hover {
+  color: #e5e5e5;
+}
+.tab hr {
+  height: 0;
+  border: 0;
+  border-top: 2px solid;
+}
+form {
+  padding: 15% 0;
+}
+.forgot-password-link {
+  display: block;
+  text-align: right;
+  color: #192b3f;
+}
+.forgot-password-link:hover {
+  color: #192b3f;
+}
+form button {
+  display: block;
+  margin: 20% auto 2%;
+  background-color: #595e61;
+  border: 0;
+  padding: 5% 15%;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition-duration: 0.3s;
+}
+form button:hover {
+  background-color: #494d50;
+}
+.register-login-toggle {
+  text-align: center;
+}
+.register-login-toggle a {
+  color: #192b3f;
+}
+.register-login-toggle a:hover {
+  color: #192b3f;
+}
+::placeholder {
+  font-size: 0.9rem;
+  color: #b0b9be !important;
+}
+
+/* Home page */
+.home-page {
+  padding: 40% 5%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
